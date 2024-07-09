@@ -16,6 +16,9 @@
     justify-content: center;
     overflow: hidden;
 }
+.back-video{
+    width: 100%;
+}
 body{
     padding: 0px;
     margin: 0px;
@@ -386,7 +389,7 @@ footer{
     .row{
       text-align: center;
     }
-    .col-2, .col-3, .col-4{
+  .cart-icon .box .card .card-image .col-2, .col-3, .col-4{
         flex-basis: 100%;
     }
  }
@@ -401,7 +404,7 @@ footer{
           position: absolute;
           top: 70px;
           left: 0;
-          background: #ccc7c7;
+          background: transparent;
           width: 100%;
           overflow:hidden;
           transition: max-height 0.5s;
@@ -433,7 +436,7 @@ footer{
       .row{
         text-align: center;
       }
-      .col-2, .col-3, .col-4{
+     .cart-icon .box .card .col-2, .col-3, .col-4{
           flex-basis: 100%;
       }
    }
